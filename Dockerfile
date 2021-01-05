@@ -1,7 +1,6 @@
 # Pull base image 
-From tomcat:8-jre8 
+From tomcat:9-jdk8-corretto
 
-# Maintainer 
-MAINTAINER "derekneves@me.com" 
+
 COPY ./webapp.war /usr/local/tomcat/webapps
 
